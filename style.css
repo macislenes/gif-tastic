@@ -1,0 +1,89 @@
+/* styling to the body of our html */
+body {
+  /* assinging the text a size and style */
+  font: 18px arial, sans-serif;
+  /* coloring the backgroung */
+  background: #eee;
+}
+
+/* styling the #animals id */
+#animals {
+  /* setting the width to 70% of the available space */
+  width: 70%;
+}
+
+/* styling item with the .animal-item class */
+.animal-item {
+  /* floating the object to the left most part of the display */
+  float: left;
+  /* padding around the object of 10px */
+  padding: 10px;
+}
+
+/* styling the form */
+form {
+  /* floating the object to the far right of the display */
+  float: right;
+  /* setting the width to 30% of the display */
+  width: 30%;
+  /* adding 20% padding to the object */
+  padding: 20px;
+}
+
+/* styling the form label */
+label {
+  /* displaying it as a block element forcing it to take the entire width */
+  display: block;
+  /* giving the bottom a 10px margin */
+  margin-bottom: 10px;
+  /* giving the font a boldness or thickening the style of it */
+  font-weight: 700;
+}
+
+/* styling the input section of the form */
+input[type="text"] {
+  /* giving it 100% width of the available space */
+  width: 100%;
+  /* it will take up 1/3 of the available space */
+  height: 30px;
+  /* giving the bottom a 10px margin */
+  margin-bottom: 10px;
+  /* setting the font-size to 18px */
+  font-size: 18px;
+}
+
+/* styling anything on the page that's a button or input */
+button,
+input[type="submit"] {
+  /* right padding of 5px */
+  /* bottom padding of 20px */
+  padding: 5px 20px;
+  /* top and bottom margin of 10px */
+  margin: 0 10px 10px 0;
+  /* font-size of 18px */
+  font-size: 18px;
+  /* color set to white */
+  color: #fff;
+  /* curser style will be displayed as a pointer */
+  cursor: pointer;
+  /* background will be set to a solid color */
+  background: #659a98;
+  /* giving no border */
+  border: 0;
+  /* cuving the edged of the button by 5px */
+  border-radius: 5px;
+  /* adding a drop shaddow to the bottom right of the button as a solid color */
+  box-shadow: 2px 2px 3px #bbb;
+}
+/* upon hover */
+button:hover,
+input[type="submit"]:hover {
+  /* the background color will change to a new solid color */
+  background: #334e4d;
+}
+
+/* when the button is active */
+button.active {
+  /* the background color will change */
+  background: #334e4d;
+}
