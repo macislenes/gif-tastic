@@ -24,7 +24,7 @@ body {
 form {
   /* floating the object to the far right of the display */
   float: right;
-  /* setting the width to 30% of the display */
+  /* setting the width to 30% of the available space */
   width: 30%;
   /* adding 20% padding to the object */
   padding: 20px;
